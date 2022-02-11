@@ -34,6 +34,7 @@ main {
   width: calc(20% - 10px);
   border: 1px solid black;
   background-color: aliceblue;
+  border-radius: 10px;
   text-align: center;
   margin: 5px;
   padding: 20px;
@@ -43,5 +44,6 @@ main {
 
 .container .movie-list .card h2 {
   color: crimson;
+  border-bottom: 1px solid black;
 }
 
