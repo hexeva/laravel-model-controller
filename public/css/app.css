@@ -4,7 +4,44 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: aquamarine;
+header {
+  width: 100%;
+  height: 50px;
+  background-color: bisque;
+  border-bottom: 1px solid black;
+  text-align: center;
+  line-height: 50px;
+  margin-bottom: 50px;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.container .movie-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .movie-list .card {
+  width: calc(20% - 10px);
+  border: 1px solid black;
+  background-color: aliceblue;
+  text-align: center;
+  margin: 5px;
+  padding: 20px;
+  line-height: 50px;
+  font-size: 22px;
+}
+
+.container .movie-list .card h2 {
+  color: crimson;
 }
 
